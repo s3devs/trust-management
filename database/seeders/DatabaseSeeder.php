@@ -18,8 +18,7 @@ class DatabaseSeeder extends Seeder
             RoleSeeder::class,
             UserSeeder::class,
             PermissionSeeder::class,
-            ReferralSourcesTableSeeder::class,
-            FakerSeeder::class,
+            // FakerSeeder::class,
         ]);
     }
 }

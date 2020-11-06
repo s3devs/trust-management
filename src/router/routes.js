@@ -45,33 +45,33 @@ const routes = [
         },
         component: () => import('pages/users/Users')
       },
-      {
-        path: '/customers',
-        name: 'Customers',
-        meta: {
-          auth: true,
-          module: 'Customer'
-        },
-        component: () => import('pages/customer/Customers')
-      },
-      {
-        path: '/suppliers',
-        name: 'Suppliers',
-        meta: {
-          auth: true,
-          module: 'Supplier'
-        },
-        component: () => import('pages/supplier/Suppliers')
-      },
-      {
-        path: '/prospects',
-        name: 'Prospects',
-        meta: {
-          auth: true,
-          module: 'Customer'
-        },
-        component: () => import('pages/customer/Prospects')
-      },
+      // {
+      //   path: '/customers',
+      //   name: 'Customers',
+      //   meta: {
+      //     auth: true,
+      //     module: 'Customer'
+      //   },
+      //   component: () => import('pages/customer/Customers')
+      // },
+      // {
+      //   path: '/suppliers',
+      //   name: 'Suppliers',
+      //   meta: {
+      //     auth: true,
+      //     module: 'Supplier'
+      //   },
+      //   component: () => import('pages/supplier/Suppliers')
+      // },
+      // {
+      //   path: '/prospects',
+      //   name: 'Prospects',
+      //   meta: {
+      //     auth: true,
+      //     module: 'Customer'
+      //   },
+      //   component: () => import('pages/customer/Prospects')
+      // },
       {
         path: '/roles',
         name: 'Roles',

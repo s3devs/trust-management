@@ -129,21 +129,21 @@ export default {
           icon: 'fal fa-tachometer',
           route: 'Dashboard'
         },
-        {
-          title: 'Customers',
-          icon: 'fal fa-handshake-alt',
-          route: 'Customers'
-        },
-        {
-          title: 'Suppliers',
-          icon: 'fal fa-person-carry',
-          route: 'Suppliers'
-        },
-        {
-          title: 'Prospects',
-          icon: 'fal fa-calculator',
-          route: 'Prospects'
-        },
+        // {
+        //   title: 'Customers',
+        //   icon: 'fal fa-handshake-alt',
+        //   route: 'Customers'
+        // },
+        // {
+        //   title: 'Suppliers',
+        //   icon: 'fal fa-person-carry',
+        //   route: 'Suppliers'
+        // },
+        // {
+        //   title: 'Prospects',
+        //   icon: 'fal fa-calculator',
+        //   route: 'Prospects'
+        // },
         {
           title: 'Users',
           icon: 'fal fa-users',
