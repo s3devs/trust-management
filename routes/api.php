@@ -37,7 +37,7 @@ Route::middleware('auth:sanctum')->group(function () {
         'edit', 'create',
     ]);
 
-    // Customer Location
+    // Customer Locations
     Route::delete('customers/{customer}/locations', 'Customer\LocationController@destroySelected');
     Route::post('customers/{customer}/locations/{user}/restore', 'Customer\LocationController@restore');
     Route::post('customers/{customer}/locations/restore', 'Customer\LocationController@restoreSelected');
@@ -45,7 +45,7 @@ Route::middleware('auth:sanctum')->group(function () {
         'edit', 'create',
     ]);
 
-    // Customer Referral Source
+    // Customer Referral Sources
     Route::delete('referral-source', 'Customer\ReferralSourceController@destroySelected');
     Route::post('referral-source/{customer}/restore', 'Customer\ReferralSourceController@restore');
     Route::post('referral-source/restore', 'Customer\ReferralSourceController@restoreSelected');
